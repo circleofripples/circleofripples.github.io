@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Lalezar;
+  src: url(Lalezar\Lalezar-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu\Ubuntu-Regular.ttf);
+}
+
+body {
+  background-color: wheat;
+}
+
+section {
+  background-color: skyblue;
+}
+
+header {
+  height:auto;
+  width: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  border: 1px solid cadetblue;
+  padding: 4px;
+  border-bottom-left-radius:64px;
+  border-top-left-radius:64px;
+  background-color:antiquewhite;
+}
+
+a {
+  margin: unset;
+  text-decoration: none;
+  color: cadetblue;
+  text-align: right;
+  transition:color 500ms ease;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Lalezar', cursive;
+  font-size: 48px;
+  margin: unset;
+  color: indianred;
+}
+
+#header-ico {
+  height: 80px;
+}
+
+.center-h {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.left-h {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.left-h img {border-radius:64px;box-shadow:5px 0px 0px cadetblue;
+transition:box-shadow 500ms ease;}
+.left-h img:hover {border-radius:64px;box-shadow:8px 0px 0px darkblue;}
+
+.right-h {
+  padding-right:10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
