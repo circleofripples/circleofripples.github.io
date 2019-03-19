@@ -10,6 +10,7 @@
 
 body {
   background-color: wheat;
+  margin:unset;
 }
 
 section {
@@ -17,8 +18,10 @@ section {
 }
 
 header {
+  margin:10px;left:0px;top:0px;
   height:auto;
-  width: auto;
+  width: inherit;
+  min-width:90%;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
