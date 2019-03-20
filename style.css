@@ -9,7 +9,13 @@
 }
 
 body {
-  background-color: aliceblue;
+  padding-top:130px;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: overlay;
+  background-image:url(fog3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   margin: unset;
   overflow: hidden;
   display: flex;
@@ -58,9 +64,8 @@ section {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  top: 130px;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   background-color: transparent;
 }
 
@@ -74,6 +79,7 @@ header {
   margin: 10px;
   left: 0px;
   top: 0px;
+  z-index: 2;
   height: 88px;
   width: auto;
   display: flex;
@@ -131,6 +137,7 @@ p {
   border: 1px dotted indianred;
   padding: 16px;
   margin auto;
+  max-width:512px;
 }
 
 #header-ico {
